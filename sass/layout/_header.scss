@@ -1,0 +1,136 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+
+  display: block;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+
+.header-havigation {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-link {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+  &.current::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.haeder-content {
+  margin-left: auto;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-link {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  &:hover .header-link-icon,
+  &:focus .header-link-icon {
+    fill: currentColor;
+  }
+}
+
+.header-link-icon {
+  /* transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+
+  /* display: block; */
+  margin-right: 10px;
+  fill: var(--first-text-color);
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+}
+
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+}
+
+/* .header-link-icon:hover,
+.header-link-icon:focus {
+  fill: var(--accent-color);
+} */
+
+.link-text {
+  display: block;
+}
+
+.header-list {
+  display: flex;
+}
