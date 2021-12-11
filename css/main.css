@@ -69,19 +69,6 @@ body {
   text-decoration: none;
 }
 
-.btn {
-  min-width: 200px;
-  height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  background-color: #188ce8;
-  background: var(--accent-color);
-  color: var(--first-button-color);
-}
-
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -976,5 +963,18 @@ body {
   justify-content: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.btn {
+  min-width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #188ce8;
+  background: var(--accent-color);
+  color: var(--first-button-color);
 }
 /*# sourceMappingURL=main.css.map */
