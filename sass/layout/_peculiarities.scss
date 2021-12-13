@@ -1,4 +1,4 @@
-.peculiarities-section {
+.peculiarities {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -8,7 +8,14 @@
   margin-bottom: 90px;
 }
 
-.peculiarities-icon {
+.peculiarities-lis__item {
+  max-width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.peculiarities-lis__icon {
   display: flex;
   justify-content: center;
   content: "";
@@ -20,14 +27,8 @@
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.peculiarities-item {
-  max-width: 270px;
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
-}
 
-.peculiarities-title {
+.peculiarities-lis__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -38,7 +39,7 @@
   margin-top: 30px;
 }
 
-.peculiarities-text {
+.peculiarities-lis__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

@@ -1,8 +1,8 @@
-.work-section {
+.work {
   padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
@@ -19,7 +19,7 @@
   margin-left: -30px;
 }
 
-.work-item {
+.work-list__item {
   width: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
@@ -27,7 +27,7 @@
   position: relative;
 }
 
-.work-item-title {
+.work-list__title {
   position: absolute;
   width: 370px;
   min-height: 70px;
